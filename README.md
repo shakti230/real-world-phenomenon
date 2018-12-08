@@ -34,7 +34,7 @@ To begin I studied the existing dataset to understand the different attributes, 
 Install Python 3.0
 Install all required python dependencies
 
-# import packages
+#### import packages
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -45,7 +45,7 @@ from collections import Counter
 ## 3.0 Github
 Create repository and readme in github account.
 
-## Download Data
+#### Download Data
 In command line, cd (change directory) to this repo root directory
 Execute setup script.
 Clone github through command line.
