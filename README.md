@@ -65,7 +65,7 @@ os.listdir(os.getcwd())
 
 
 #### Read csv
-I read the csv and printed the list of headings in a list.
+I read the csv from my git raw url and printed the list of headings in a list.
 I printed the counter column and the output of the number of rows by columns.
 
 predefined_data = pd.read_csv("nations.csv")
@@ -142,9 +142,16 @@ Five variables have been taken into consideration:
 
 To begin I analysed the existing dataset to understand the different attributes, their relations with each other and the distribution they follow. Using these observations we will form an algorithym for a manual data sythesis.
 
-I read the csv file to anaylse, decided to focus on the year 2000 for my review. I removed any data rows with na values and removed additional columns which I was not using as part of the analysis. I chose the 5 variables listed above for this project. I used the describe function to output a statistical analysis of the data for the year 2000. I used the dtypes function to display the type of data in each column.I anaylysed the distribution of my data using histograms. This allows me to clearly define the type of distribution e.g. Poisson and Binomial. 
+I read the csv file to anaylse, decided to focus on the year 2000 for my review. I removed any data rows with na values and removed additional columns which I was not using as part of the analysis. I chose the 5 variables listed above for this project. I used the describe function to output a statistical analysis of the data for the year 2000. I used the dtypes function to display the type of data in each column.I anaylysed the distribution of my data using histograms. This allowed me to clearly define the type of distribution e.g. Poisson and Binomial. 
 
 Once I had reviewed the chosen dataset I then used this data to simulate data based on the 5 chosen variables over 100 data points. I used the np.random.exponential to gather this data and the output was displayed in histograms. Finally I displayed the simulated data in a dataframe with 100 data points.
 
 ## 5.0 References
-
+- 1.0 Data nations.csv http://www.worldbank.org/
+- Research https://ermlab.com/en/blog/data-science/pandas-seaborn-world-bank-gdp-analysis/
+- https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html
+- 2.3 https://www.programcreek.com/python/example/55595/numpy.random.exponential
+- 2.3 https://stackoverflow.com/questions/15091982/manipulating-the-numpy-random-exponential-distribution-in-python
+- Poisson distribution: Frank H Stephenson, Calculations for Molecular Biology and Biotechnology (Third Edition), 2016. Link: https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/poisson-distribution
+- Poisson distribution: Jonathan Marchini (2008). Link: http://www.stats.ox.ac.uk/~marchini/teaching/L5/L5.notes.pdf
+- Binomial Distribution: http://www.stat.yale.edu/Courses/1997-98/101/binom.htm
